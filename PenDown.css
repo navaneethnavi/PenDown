@@ -100,8 +100,8 @@ pre.firepad-lt-o, pre.firepad-lt-u, pre.firepad-lt-t, pre.firepad-lt-tc {
   z-index: 5;
   right: 20px;
   bottom: 35px;
-  width: 129px;
-  height: 23px;
+  width: 201px;
+  height: 61px;
   background-image: url('logo.png');
   opacity: 0.4;
 }
