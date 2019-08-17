@@ -11,8 +11,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.17.0/codemirror.css" />
 
   <!-- Firepad -->
-  <link rel="stylesheet" href="1.css" />
-  <script src="1.js"></script>
+<link rel="stylesheet" href="https://cdn.firebase.com/libs/firepad/1.4.0/firepad.css" />
+<script src="https://cdn.firebase.com/libs/firepad/1.4.0/firepad.min.js"></script>
   
    
 		
@@ -44,7 +44,7 @@ progress:after {
  
     function init() {
        config = {
-                     apiKey: "AIzaSyCCNIvVBOSAJp5X6MD9hWykPZEzo2Ts_WU",
+    apiKey: "AIzaSyCCNIvVBOSAJp5X6MD9hWykPZEzo2Ts_WU",
     authDomain: "pendown-navi.firebaseapp.com",
     databaseURL: "https://pendown-navi.firebaseio.com",
     projectId: "pendown-navi",
@@ -53,7 +53,7 @@ progress:after {
       };
       firebase.initializeApp(config);
 
-       firepadRef = getExampleRef();
+      var firepadRef = getExampleRef();
 
       codeMirror = CodeMirror(document.getElementById('firepad-container'), { lineWrapping: true });
 
